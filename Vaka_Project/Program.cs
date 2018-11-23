@@ -29,7 +29,7 @@ namespace Vaka_Project
                 robotic.Y = Convert.ToInt32(Console.ReadLine());
                 Console.Write("{0}. Robotik Gezginin Yönünün değerini giriniz : ", i);
                 robotic.Direction = Console.ReadLine().ToUpper();
-                Console.WriteLine("\n{0}. Robotic konumu ve Yönü  : ({0} {1} {2})", robotic.X, robotic.Y, robotic.Direction);
+                Console.WriteLine("\n{0}. Robotic konumu ve Yönü  : ({1} {2} {3})", i, robotic.X, robotic.Y, robotic.Direction);
                 robotic.RoboticDirection(robotic);
                 Console.WriteLine();
                 Console.Write("Lütfen Tüm Yönlendirmelerinizi tek tek giriniz ve çıkmak için 'ESC' Tuşuna basınız\n\n");
